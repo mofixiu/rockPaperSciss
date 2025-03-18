@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="counter">
+      <h2 id="scoreHeader"></h2>
+    </div>
+    <div id="pictureDiv">
+      <h1 class="heading">Rock Paper Scissors Game</h1>
+      <br />
+      <h3>Select your image</h3>
+      <br />
+      <div id="selectedImage">
+        <img id="Rock" src="Rock.jpg" class="Rock" />
+        <img id="Paper" src="Paper.jpg" class="Paper" />
+        <img id="Scissors" src="Scissors.jpg" class="Scissors" />
+      </div>
+    </div>
+    <div id="format">
+    <div id="myRock" class="center">
+      <h3>Your choice</h3>
+      <img src="Rock.jpg" class="Rock" />
+    </div>
+    <div id="myPaper" class="center">
+      <h3>Your choice</h3>
+      <img src="Paper.jpg" class="Paper" />
+    </div>
+    <div id="myScissors" class="center">
+      <h3>Your choice</h3>
+      <img src="Scissors.jpg" class="Scissors" />
+    </div>
+
+    <div id="compRock" class="center">
+      <h3>Computers choice</h3>
+      <img src="Rock.jpg" alt="Player's choice" class="Rock" />
+    </div>
+    <div id="compPaper" class="center">
+      <h3>Computers choice</h3>
+      <img src="Paper.jpg" alt="Computer's choice" class="Paper" />
+    </div>
+    <div id="compScissors" class="center">
+      <h3>Computers choice</h3>
+      <img src="Scissors.jpg" alt="Computer's choice" class="Scissors" />
+    </div>
+  </div>
+  <div id="winner">You win</div>
+  <div id="loser">You lose</div>
+  <div id="draw">A draw</div>
+  <button id="reset" onclick="resetter()">Reset</button>
+    <script src="index.js"></script>
+
+  </body>
+</html>

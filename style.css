@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    }
+
+#pictureDiv{
+   
+    flex-direction: column;
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 5px;
+    
+}
+#myRock{
+    margin-top: 20px;
+    position:relative;
+     display:none; 
+   
+}
+
+#myPaper{
+    margin-top: 20px;
+    position:relative;
+    display:none;
+}
+#myScissors{
+    position:relative;
+    display:none;
+}
+#compRock{
+    margin-top: 20px;
+    position:relative;
+     display: none;
+
+}
+#compPaper{
+    margin-top: 20px;
+    position:relative;
+    display:none;
+}
+#compScissors{
+    position:relative;
+    margin-top: 20px;
+    display:none;
+}
+#winner{
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+    display: none;
+    font-weight: bolder;
+}
+#loser{
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+    display: none;
+    font-weight: bolder;
+}
+#draw{
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+    display: none;
+    font-weight: bolder;
+}
+#reset{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    display: none;
+    height: 40px;
+    width: 70px;
+    color: black;
+    background-color: burlywood;
+}
+#format{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:40px;
+}
+.Rock{
+    width: 100px;
+    height: 100px;
+    
+}
+.Paper{
+    width: 100px;
+    height: 100px;}
+ .Scissors{
+    width: 100px;
+    height: 100px;}
